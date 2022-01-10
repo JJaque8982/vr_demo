@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR", "Unity.XR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.MockDriver", "Unity.XR.OpenXR.Features.MockDriver.csproj", "{94D5613E-5E60-929F-6531-9878B14C49E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7E3209EB-7E89-E3DE-6E0A-99091084ED2C}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.ConformanceAutomation", "Unity.XR.OpenXR.Features.ConformanceAutomation.csproj", "{653D79D0-6AA5-B6FA-0310-477B09B4266C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.TestHelpers", "Unity.XR.OpenXR.TestHelpers.csproj", "{79F0D8E8-A7A6-4A20-9CE5-2D4BE2B03768}"
@@ -36,8 +38,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.SpatialTracking", "UnityEngine.SpatialTracking.csproj", "{BE22CA59-ED7E-8DD4-81A9-046C6CAC6C53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.RuntimeDebugger", "Unity.XR.OpenXR.Features.RuntimeDebugger.csproj", "{66FCE36E-5D37-773A-5002-BEADE5E0CB33}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7E3209EB-7E89-E3DE-6E0A-99091084ED2C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management.Editor", "Unity.XR.Management.Editor.csproj", "{26F323AE-3DD2-A347-0CC2-50F7BACEFFD5}"
 EndProject
@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR", "Unity.XR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.MockDriver", "Unity.XR.OpenXR.Features.MockDriver.Player.csproj", "{5C1C9A7A-BCC2-6EF9-06D4-9D0AC087AAA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.Player.csproj", "{0921BCD0-50AC-FE7D-C01B-1B19B7A1B654}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.ConformanceAutomation", "Unity.XR.OpenXR.Features.ConformanceAutomation.Player.csproj", "{269F7B24-08BE-E2CB-82F1-E9FC3F0F96F9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.TestHelpers", "Unity.XR.OpenXR.TestHelpers.Player.csproj", "{E38C9723-0DF4-D56D-4B4C-8EAF42AFA91C}"
@@ -108,8 +110,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.SpatialTracking", "UnityEngine.SpatialTracking.Player.csproj", "{1786DEF3-A4D3-E21D-A50C-F04A64CBD1F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.RuntimeDebugger", "Unity.XR.OpenXR.Features.RuntimeDebugger.Player.csproj", "{E90BE8C9-5351-F5D9-F447-082296F9729A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.Player.csproj", "{0921BCD0-50AC-FE7D-C01B-1B19B7A1B654}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +165,10 @@ Global
 		{94D5613E-5E60-929F-6531-9878B14C49E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94D5613E-5E60-929F-6531-9878B14C49E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94D5613E-5E60-929F-6531-9878B14C49E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E3209EB-7E89-E3DE-6E0A-99091084ED2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E3209EB-7E89-E3DE-6E0A-99091084ED2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E3209EB-7E89-E3DE-6E0A-99091084ED2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E3209EB-7E89-E3DE-6E0A-99091084ED2C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{653D79D0-6AA5-B6FA-0310-477B09B4266C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{653D79D0-6AA5-B6FA-0310-477B09B4266C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{653D79D0-6AA5-B6FA-0310-477B09B4266C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -189,10 +193,6 @@ Global
 		{66FCE36E-5D37-773A-5002-BEADE5E0CB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66FCE36E-5D37-773A-5002-BEADE5E0CB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66FCE36E-5D37-773A-5002-BEADE5E0CB33}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7E3209EB-7E89-E3DE-6E0A-99091084ED2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E3209EB-7E89-E3DE-6E0A-99091084ED2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E3209EB-7E89-E3DE-6E0A-99091084ED2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E3209EB-7E89-E3DE-6E0A-99091084ED2C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{26F323AE-3DD2-A347-0CC2-50F7BACEFFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{26F323AE-3DD2-A347-0CC2-50F7BACEFFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26F323AE-3DD2-A347-0CC2-50F7BACEFFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -309,6 +309,10 @@ Global
 		{5C1C9A7A-BCC2-6EF9-06D4-9D0AC087AAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C1C9A7A-BCC2-6EF9-06D4-9D0AC087AAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C1C9A7A-BCC2-6EF9-06D4-9D0AC087AAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0921BCD0-50AC-FE7D-C01B-1B19B7A1B654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0921BCD0-50AC-FE7D-C01B-1B19B7A1B654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0921BCD0-50AC-FE7D-C01B-1B19B7A1B654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0921BCD0-50AC-FE7D-C01B-1B19B7A1B654}.Release|Any CPU.Build.0 = Release|Any CPU
 		{269F7B24-08BE-E2CB-82F1-E9FC3F0F96F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{269F7B24-08BE-E2CB-82F1-E9FC3F0F96F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{269F7B24-08BE-E2CB-82F1-E9FC3F0F96F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -333,10 +337,6 @@ Global
 		{E90BE8C9-5351-F5D9-F447-082296F9729A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E90BE8C9-5351-F5D9-F447-082296F9729A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E90BE8C9-5351-F5D9-F447-082296F9729A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0921BCD0-50AC-FE7D-C01B-1B19B7A1B654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0921BCD0-50AC-FE7D-C01B-1B19B7A1B654}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0921BCD0-50AC-FE7D-C01B-1B19B7A1B654}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0921BCD0-50AC-FE7D-C01B-1B19B7A1B654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
