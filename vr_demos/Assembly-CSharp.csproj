@@ -58,8 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets\arma\Sci Fi Gun\Prefab\Gun_System.cs" />
     <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
-    <Compile Include="Assets\scripts\ClimbInteractable.cs" />
     <Compile Include="Assets\scripts\climber.cs" />
+    <Compile Include="Assets\scripts\ClimbInteractable.cs" />
+    <Compile Include="Assets\scripts\input\HandAnimationControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM2.shader" />
